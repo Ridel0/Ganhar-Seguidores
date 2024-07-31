@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Redirect to Instagram and set state
     seguirBtn.onclick = function() {
         localStorage.setItem("followed", "true");
-        window.location.href = "https://www.instagram.com/ridel_pg/?igsh=bW9qM2RkeGdidGln";
+        window.location.href = "https://www.instagram.com/ridel_pg?igsh=bW9qM2RkeGdidGln";
     }
 
     // Check if the user has followed and show the congrats modal with a delay
@@ -57,3 +57,4 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 3000); // 3 segundos de atraso
     }
 });
+
