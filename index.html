@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insira seu Instagram</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Insira seu Instagram</h1>
+        <input type="text" id="instagramName" placeholder="Seu Instagram">
+        <button id="enviarBtn">Enviar</button>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Clique aqui e siga ridel_pg para obter seus seguidores</p>
+            <button id="seguirBtn">Seguir</button>
+        </div>
+    </div>
+
+    <div id="loadingModal" class="modal">
+        <div class="modal-content">
+            <p>Verificando...</p>
+        </div>
+    </div>
+
+    <div id="congratsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="congratsMessage">Parabéns! Você está na fila e está no segundo lugar para ganhar 60k de seguidores.. Acontecerá a qualquer momento se você for meu seguir..</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
